@@ -113,6 +113,13 @@
   .solitude p.big{font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:clamp(32px,6vw,56px);line-height:1.1;color:var(--paper);max-width:16ch;margin:0 auto 24px}
   .solitude p.small{max-width:46ch;margin:0 auto;color:var(--muted)}
 
+  /* Dos necesidades */
+  .pair{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:8px 0 40px}
+  .pair div{background:var(--bg-2);border:1px solid var(--line);border-top:3px solid var(--amber);border-radius:16px;padding:28px}
+  .pair span{display:block;font-family:'Oswald',sans-serif;text-transform:uppercase;font-size:clamp(26px,4vw,34px);color:var(--amber);line-height:1.1;margin-bottom:10px}
+  .pair p{margin:0;font-size:17px;line-height:1.55}
+  @media (max-width:600px){.pair{grid-template-columns:1fr}}
+
   /* Manifiesto */
   .manifesto{background:var(--paper);color:var(--ink);border-top:0}
   .manifesto h2,.manifesto h3,.manifesto strong{color:var(--ink)}
@@ -150,6 +157,7 @@
       <li><a href="#venta">Venta</a></li>
       <li><a href="#matriz">Matriz</a></li>
       <li><a href="#heridas">Heridas</a></li>
+      <li><a href="#necesidades">Necesidades</a></li>
       <li class="keep"><a href="#manifiesto">Manifiesto</a></li>
     </ul>
   </div>
@@ -303,10 +311,23 @@
   </div>
 </section>
 
-<!-- 5. Manifiesto -->
+<!-- Dos necesidades -->
+<section class="needs" id="necesidades">
+  <div class="wrap">
+    <p class="label">05 · Después de tanta ingeniería</p>
+    <h2>Solo necesitamos dos cosas</h2>
+    <div class="pair">
+      <div><span>Sorprendernos</span><p>Rendir la mente analítica ante el asombro de estar vivo.</p></div>
+      <div><span>Agradecer</span><p>Descansar en la gratitud de lo que ya es.</p></div>
+    </div>
+    <p class="intro">Todo lo demás es decorado. Con estas dos, el mapa deja de ser una armadura para defenderse y se convierte en un terreno de juego para disfrutar.</p>
+  </div>
+</section>
+
+<!-- 6. Manifiesto -->
 <section class="manifesto" id="manifiesto">
   <div class="wrap">
-    <p class="label">05 · Para compartir</p>
+    <p class="label">06 · Para compartir</p>
     <h2>El manifiesto</h2>
     <div class="toolbar">
       <button class="btn" id="copy" type="button">Copiar manifiesto</button>
@@ -320,6 +341,7 @@
       <p>Hablemos con rigor, pero también con la cabeza gacha. Este documento no nace desde el pedestal de un gurú iluminado, sino desde el barro de mi propia y soberana ineptitud humana.</p>
       <p>Como digno espécimen de esta especie defectuosa, pasé años cometiendo los errores de software más bochornosos: intenté buscar mi dignidad en el aplauso de un cliente, traté de usar a mis amigos como psicólogos gratuitos para huir de mi propio vacío, y le exigí a mi pareja que me completara la existencia porque me daba pánico mirar hacia dentro. Es decir, operaba con la madurez de un hámster histérico al que le dieron una tarjeta de crédito y una cuenta de Tinder.</p>
       <p>Para salvarme de mí mismo, tuve que sentarme a diseñar este mapa. Una matriz de una precisión casi patológica, creada por un inepto que necesitó cuadricular el universo en tres esferas para convencer a su mente rígida de una verdad ridículamente simple: que ya estamos completos y que podemos vivir en paz.</p>
+      <p>Y al final, después de tanta ingeniería conceptual, descubrí que todo esto nos lleva a las dos únicas necesidades reales del ser humano: <strong>la capacidad de sorprendernos y la capacidad de agradecer</strong>. Todo lo demás es decorado. Cuando tu mente analítica se rinde ante el asombro de estar vivo y descansa en la gratitud de lo que ya es, el mapa deja de ser una armadura para defenderse y se convierte en un terreno de juego para disfrutar.</p>
       <p>Aquí tienes la auditoría de nuestra compartida comedia humana.</p>
 
       <h3>Módulo I: La estafa del buscador externo (mi propia radiografía)</h3>
@@ -347,7 +369,7 @@
       <h3>Conclusión para vivir en paz</h3>
       <p>Diseñé este modelo con rigor matemático porque mi mente necesitaba una estructura lógica para entender lo obvio: que la vida es mucho más simple de lo que mi ego pretende.</p>
       <p>El EBITDA mide el negocio, la red de apoyo mide al amigo, y la sexualidad mide a la pareja. Ninguna de esas tres cosas tiene el poder de definir quién eres tú. Tú ya vienes medido y aprobado de fábrica, aunque tu ineptitud te haga dudarlo tres veces por semana.</p>
-      <p>Al entender esta matriz, dejas de controlar para protegerte del mundo y empiezas a jugar para disfrutar de él. Despídete de la arrogancia, dile adiós a la culpa, abraza tu maravillosa imperfección humana y, por favor, descansa en paz. El universo ya tiene suficientes jueces; lo que necesita es gente cuerda que se atreva a ser feliz.</p>
+      <p>Al entender esta matriz, dejas de controlar para protegerte del mundo y empiezas a jugar para disfrutar de él. Despídete de la arrogancia, dile adiós a la culpa, recupera la inocencia para dejarte sorprender por las dos verdaderas necesidades (la sorpresa y la gratitud) y, por favor, descansa en paz. El universo ya tiene suficientes jueces; lo que necesita es gente cuerda que se atreva a ser feliz.</p>
       <p class="sign">Ramón Romero Boquete</p>
     </div>
   </div>
