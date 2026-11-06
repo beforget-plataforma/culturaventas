@@ -24,7 +24,7 @@ Hola. Ramón quiere poner en la web principal (`www.ramonromeroboquete.com`, en 
 - Que el fondo oscuro llegue de borde a borde. Si queda un margen blanco, el contenedor del tema tiene `max-width` o `padding`: usa una plantilla de ancho completo.
 - Que en el móvil (unos 390 px de ancho) no haya desplazamiento horizontal.
 - Que los enlaces funcionen:
-  - «Leer el manifiesto completo» → `https://jugar.ramonromeroboquete.com/integral/`. Este enlace **no funcionará hasta que exista el subdominio**. Hasta entonces, si Ramón lo prefiere, cámbialo por la URL de la página de WordPress donde esté el manifiesto.
+  - «Leer el manifiesto completo» → `https://jugar.ramonromeroboquete.com/manifiesto/`. Este enlace **no funcionará hasta que exista el subdominio**. Hasta entonces, si Ramón lo prefiere, cámbialo por la URL de la página de WordPress donde esté el manifiesto.
   - Newsletter → `https://www.beforget.com/letter/`
   - YouTube → `https://www.youtube.com/@ramonromeroboquete`
   - Reunión de los miércoles (Zoom) y WhatsApp.
